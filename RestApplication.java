@@ -17,13 +17,13 @@ import org.json.JSONTokener;
 
 
 public class RestApplication {
-	private static final String clientId 		= "3MVG9Y6d_Btp4xp6Bd1EutWxchAqpBlDuIsXDKE.T71EvIFOMaDvZ.UCjTimkI9fQfVvVhjijCchKy9NBhz.o";
-	private static final String clientSecret 	= "8782785099246188939";
-	private static final String redirectUri 	= "https://localhost:8443/RestTest/oauth/_callback2";
+	private static final String clientId 		= "<client Id>"; //3MVG9Y6dy9NBhz.o3MVG9Y6d_Btp4xp6BdUCjTimkI9fQfVvVhjijCchKy9NBhz.o
+	private static final String clientSecret 	= "<clientSecret>"; //1236547125478963
+	private static final String redirectUri 	= "<redirect URI>"; //https://localhost:8443/RestTest/oauth/_callback2
 	private static String tokenUrl 				= "";
 	private static final String environment 	= "https://login.salesforce.com";
-	private static final String userName		= "kali@developer.com";
-	private static final String password		= "Vantage360443g2ambcNwHHwJeLpumpTjaq";
+	private static final String userName		= "<salesforce username>";
+	private static final String password		= "<salesforce password>"; // password = password + security token
 	private static String accessToken			=	null;
 	private static String instanceUrl			=	null;
 	
